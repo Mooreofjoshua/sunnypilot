@@ -260,6 +260,7 @@ FW_VERSIONS = {
   CAR.FORESTER_PREGLOBAL: {
     # 2018 Forester 2.5i Touring - UDM / @Oreo
     # 2018 Forester 2.5 Limited - Canada / @litobro
+    # 2017 Forester 2.0XT Touring / @mooreofjoshua
     # 2017 Forester - UDM / @hitoryu2001
     # 2018 Forester - UDM / @sarvcomp
     # 2018 Forester 2.5i Premium - UDM / @Diesel Monkey
@@ -281,6 +282,7 @@ FW_VERSIONS = {
     (Ecu.engine, 0x7e0, None): [
       b'\xba"@p\a',
       b'\xa7)\xa0q\a',
+      b'\xa7)\xa0P\x07',
       b'\xba"@@\a',
     ],
     (Ecu.transmission, 0x7e1, None): [
